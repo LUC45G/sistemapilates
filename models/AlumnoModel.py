@@ -1,6 +1,8 @@
-from SqliteModel import SqliteClass
+# -*- coding: UTF-8 -*-
 
-class Alumno():
+from .SqliteModel import SqliteClass
+
+class AlumnoClass():
 
 	def __init__(self):
 	    self.db = SqliteClass()
