@@ -1,4 +1,5 @@
 # -*- coding: UTF-8 -*-
+
 import sqlite3
 from config import db
 
