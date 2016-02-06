@@ -11,7 +11,13 @@ class ViewsClass(QWidget):
 		self.InitUI()
 
 	def InitUI(self):
+		#Tamaños de la ventana
 		self.resize(500, 300)
 		self.move(300, 250)
+
+		#Titulo
 		self.setWindowTitle('Sistema Pilates')
+
+		
+		
 		self.show()
