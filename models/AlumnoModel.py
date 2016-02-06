@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 from SqliteModel import SqliteClass
 
 class Alumno():
@@ -18,6 +19,8 @@ class Alumno():
 
 	def SetName(self, id, nombre):
 =======
+=======
+>>>>>>> 76d08c364069a6e3580fa84ea57e6aa1a73708ec
 # -*- coding: UTF-8 -*-
 
 from .SqliteModel import SqliteClass
@@ -38,5 +41,8 @@ class AlumnoClass():
 		return nombre[0]
 
 	def SetName(self, id, nombre):
+<<<<<<< HEAD
+>>>>>>> 76d08c364069a6e3580fa84ea57e6aa1a73708ec
+=======
 >>>>>>> 76d08c364069a6e3580fa84ea57e6aa1a73708ec
 		self.db.EjecutarConsulta("UPDATE alumnos SET nombre = '" + nombre + "' WHERE id = " + id)
