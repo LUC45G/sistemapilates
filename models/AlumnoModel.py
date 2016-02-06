@@ -8,7 +8,8 @@ class Alumno():
                             id INT PRIMARY KEY NOT NULL,\
                             nombre TEXT NOT NULL,\
                             apellido TEXT NOT NULL,\
-                            dni INT NOT NULL)")
+                            dni INT NOT NULL, \
+														turnos TEXT NOT NULL)")
 
 	def GetName(self, id):
 		nombre = self.db.Consulta("SELECT nombre FROM alumnos WHERE id = " + id)
